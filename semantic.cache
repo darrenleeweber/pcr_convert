@@ -1,0 +1,25 @@
+;; Object melovPCR/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "melovPCR/"
+  :tables (list 
+   (semanticdb-table "melov_pcrConvert.py"
+    :major-mode 'python-mode
+    :tags '(("optparse" include nil (dependency-file none) [24 57]) ("sys" include nil (dependency-file none) [58 68]) ("csv" include nil nil [69 79]) ("readCSV" function (:arguments (("inputFile" variable nil (reparse-symbol function_parameters) [162 171]))) nil [150 1811]) ("writeCSV" function (:arguments (("geneDict" variable nil (reparse-symbol function_parameters) [1895 1903]))) nil [1882 3190]) ("findAllIndices" function (:arguments (("thisList" variable nil (reparse-symbol function_parameters) [3281 3289]) ("value" variable nil (reparse-symbol function_parameters) [3291 3296]))) nil [3262 3367]) ("checkSampleRange" function (:arguments (("geneDict" variable nil (reparse-symbol function_parameters) [3458 3466]) ("rangeThreshold" variable nil (reparse-symbol function_parameters) [3468 3482]))) nil [3437 6272]) ("excludeSamples" function (:arguments (("geneDict" variable nil (reparse-symbol function_parameters) [6361 6369]) ("samplesExclude" variable nil (reparse-symbol function_parameters) [6371 6385]))) nil [6342 7159]) ("main" function nil nil [7239 8729]) ("if" code nil nil [8780 8833]))
+    :file "melov_pcrConvert.py"
+    :pointmax 8833
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "csv2xls.py"
+    :major-mode 'python-mode
+    :tags '(("\"\"\"
+Tool to convert CSV files (with configurable delimiter and text wrap
+character) to Excel spreadsheets.
+\"\"\"" code nil nil [24 134]) ("string" include nil (dependency-file none) [136 149]) ("sys" include nil (dependency-file none) [150 160]) ("getopt" include nil (dependency-file none) [161 174]) ("re" include nil (dependency-file none) [175 184]) ("os" include nil (dependency-file none) [185 194]) ("os.path" include nil (dependency-file none) [195 209]) ("csv" include nil nil [210 220]) ("pyExcelerator" include nil nil [221 248]) ("usage" function nil nil [250 677]) ("openExcelSheet" function (:arguments (("outputFileName" variable nil (reparse-symbol function_parameters) [697 711]))) nil [678 882]) ("writeExcelHeader" function (:arguments (("worksheet" variable nil (reparse-symbol function_parameters) [904 913]) ("titleCols" variable nil (reparse-symbol function_parameters) [915 924]))) nil [883 1073]) ("writeExcelRow" function (:arguments (("worksheet" variable nil (reparse-symbol function_parameters) [1092 1101]) ("lno" variable nil (reparse-symbol function_parameters) [1103 1106]) ("columns" variable nil (reparse-symbol function_parameters) [1108 1115]))) nil [1074 1261]) ("closeExcelSheet" function (:arguments (("workbook" variable nil (reparse-symbol function_parameters) [1282 1290]) ("outputFileName" variable nil (reparse-symbol function_parameters) [1292 1306]))) nil [1262 1411]) ("getDefaultOutputFileName" function (:arguments (("inputFileName" variable nil (reparse-symbol function_parameters) [1441 1454]))) nil [1412 1861]) ("renameOutputFile" function (:arguments (("outputFileName" variable nil (reparse-symbol function_parameters) [1883 1897]) ("fno" variable nil (reparse-symbol function_parameters) [1899 1902]))) nil [1862 2424]) ("validateOpts" function (:arguments (("opts" variable nil (reparse-symbol function_parameters) [2442 2446]))) nil [2425 3001]) ("main" function nil nil [3002 4303]) ("if" code nil nil [4304 4340]))
+    :file "csv2xls.py"
+    :pointmax 4340
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )
